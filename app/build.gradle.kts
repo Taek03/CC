@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId = "com.example.collectconnect"
         minSdk = 28
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -42,6 +42,10 @@ dependencies {
     implementation("com.google.firebase:firebase-auth:23.0.0")
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation ("com.google.firebase:firebase-auth-ktx:22.1.2")
+    implementation ("com.google.firebase:firebase-database:20.2.2")
+    implementation ("com.google.firebase:firebase-analytics:21.3.0")
+    implementation ("com.google.firebase:firebase-appcheck:17.0.1")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
