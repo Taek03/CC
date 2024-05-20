@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="220dp"
+        android:src="@drawable/cclogo"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/edittext_border"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="6dp"
+        android:hint="이름을 입력하시오."
+        android:padding="6dp"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/edittext_border"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="6dp"
+        android:hint="전화번호를 입력하시오."
+        android:padding="6dp"
+        android:textColor="#000000"
+        android:textColorHint="#AAAAAA" />
+
+    <Button
+        android:id="@+id/btnFindIdPw"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:padding="6dp"
+        android:text="아이디/비밀번호 찾기"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

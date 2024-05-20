@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539691164971",
+    "project_id": "collect-connect-66b36",
+    "storage_bucket": "collect-connect-66b36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539691164971:android:50f88f53aa39f6228ad16e",
+        "android_client_info": {
+          "package_name": "com.example.collectconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1M-nsQmPJDz_v5rzPMpHLxUUXcDdRJbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

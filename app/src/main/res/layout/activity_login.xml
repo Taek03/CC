@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="220dp"
+        android:src="@drawable/cclogo"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/edittext_border"
+        android:drawableLeft="@drawable/idmark"
+        android:padding="6dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etPw"
+        android:layout_width="289dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext_border"
+        android:drawableLeft="@drawable/pwmark"
+        android:inputType="textPassword"
+        android:padding="6dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_border"
+        android:padding="6dp"
+        android:text="로그인"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRegi"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/button_border"
+        android:padding="6dp"
+        android:text="회원가입"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnFindIdPwPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="아이디/비밀번호 찾기"
+        android:textSize="10dp" />
+
+</LinearLayout>
