@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FInd_IdPw extends AppCompatActivity {
+public class Find_IdPw extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

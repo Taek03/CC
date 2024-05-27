@@ -24,7 +24,10 @@
             android:name=".RegistActivity"
             android:exported="false" />
         <activity
-            android:name=".FInd_IdPw"
+            android:name=".Find_IdPw"
+            android:exported="false" />
+        <activity
+            android:name=".TermsOfUseActivity"
             android:exported="false" />
 
     </application>
