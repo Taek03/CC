@@ -17,7 +17,7 @@
     <EditText
         android:id="@+id/etId"
         android:layout_width="290dp"
-        android:layout_height="65dp"
+        android:layout_height="45dp"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="17dp"
         android:background="@drawable/edittext_border"
@@ -28,7 +28,7 @@
     <EditText
         android:id="@+id/etPw"
         android:layout_width="289dp"
-        android:layout_height="65dp"
+        android:layout_height="45dp"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/edittext_border"
@@ -41,7 +41,7 @@
         android:id="@+id/btnLogIn"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/button_border"
         android:padding="6dp"
         android:text="로그인"

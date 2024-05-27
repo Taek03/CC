@@ -30,9 +30,9 @@ public class RegistActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         mDatabaseRef = FirebaseDatabase.getInstance().getReference();
 
-        mEtEmail = findViewById(R.id.etId);
-        mEtpwd = findViewById(R.id.etPw);
-        mBtnRegister = findViewById(R.id.btnRegi);
+        mEtEmail = findViewById(R.id.et_id);
+        mEtpwd = findViewById(R.id.et_password);
+        mBtnRegister = findViewById(R.id.btn_register);
 
         mBtnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
