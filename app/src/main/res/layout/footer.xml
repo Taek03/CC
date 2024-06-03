@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="63dp"
+    android:background="@color/pink"
+    android:layout_alignParentBottom="true"
+    android:weightSum="3">
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/goods_list"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:clickable="true"/>
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/home"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:clickable="true"/>
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/mypage"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:clickable="true"/>
+</LinearLayout>
