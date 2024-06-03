@@ -7,6 +7,7 @@
     android:layout_alignParentBottom="true"
     android:weightSum="3">
     <ImageView
+        android:id="@+id/goodslist"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:src="@drawable/goods_list"
@@ -14,6 +15,7 @@
         android:layout_weight="1"
         android:clickable="true"/>
     <ImageView
+        android:id="@+id/home"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:src="@drawable/home"
@@ -21,6 +23,7 @@
         android:layout_weight="1"
         android:clickable="true"/>
     <ImageView
+        android:id="@+id/mypage"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:src="@drawable/mypage"
