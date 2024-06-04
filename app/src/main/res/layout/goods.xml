@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="110dp"
+    android:layout_height="150dp">
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+        <!-- 사진 파일은 임시로 지정한 파일입니다. -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/temporary_image"/>
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="right"
+            android:src="@drawable/heart"
+            android:clickable="true" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="NA원"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="left"
+            android:layout_weight="7"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:text="판매"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="3"/>
+    </LinearLayout>
+    <!-- 설명 문장은 임시로 적었습니다. -->
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="간단설명1"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+</LinearLayout>
