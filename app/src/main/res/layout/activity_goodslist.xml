@@ -23,13 +23,5 @@
                 android:numColumns="3"/>
         </LinearLayout>
     </ScrollView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/header"
-        android:orientation="vertical">
-
-    </LinearLayout>
-
     <include layout="@layout/footer"/>
 </RelativeLayout>

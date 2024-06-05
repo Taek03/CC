@@ -56,6 +56,11 @@
                     android:numColumns="3" />
             </LinearLayout>
         </HorizontalScrollView>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <include layout="@layout/addgoodsbutton"/>
     </LinearLayout>
 
     <include layout="@layout/footer"/>
